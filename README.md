@@ -33,4 +33,4 @@ By default it will catch all exceptions
 Development
 -----------
 
-To run tests, install [composer https://getcomposer.org/], run `composer install` (or wherever you have composer installed) then run `vendor/phpunit/phpunit/phpunit` 
+To run tests, install [composer](https://getcomposer.org/), run `composer install` (or wherever you have composer installed) then run `vendor/phpunit/phpunit/phpunit` 
