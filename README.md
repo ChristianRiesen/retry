@@ -5,8 +5,8 @@ PHP class for retrying code pieces in case of exceptions.
 
 [![Build Status](https://travis-ci.org/ChristianRiesen/retry.svg)](https://travis-ci.org/ChristianRiesen/retry)
 
-Born out of a need of [Tobias Schultze https://github.com/Tobion] and myself for a project at [Liip http://www.liip.ch]
-which then found a specific [merge request into Doctrine https://github.com/doctrine/dbal/pull/718/files]. But we
+Born out of a need of [Tobias Schultze](https://github.com/Tobion) and myself for a project at [Liip](http://www.liip.ch)
+which then found a specific [merge request into Doctrine](https://github.com/doctrine/dbal/pull/718/files). But we
 thought this works just as well on a generic basis, hence why I built this. Most code is Tobias, I just wrapped it up
 into this digestible package.
 
@@ -16,7 +16,6 @@ Usage
 Make sure it's autoloaded. Wrap the code you want retried with the class and execute it.
 
 ```php
-
 use ChristianRiesen\Retry\Retry;
 
 // Anon function
